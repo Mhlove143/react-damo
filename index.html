@@ -4,37 +4,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sakib's Portfolio</title>
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <title>Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css  ">
+  <script src="index.js"></script>
+  <link rel="shortcut icon" href="/img/icons.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
 
-<body class="bg-[#0E0E0E] text-[#EDD6B6] h-screen ">
+<body class="bg-[#0E0E0E] text-[#EDD6B6] h-screen">
 
+  <!-- Centered Navigation Bar -->
   <!-- Centered Navigation Bar -->
   <div class="fixed w-full z-10 fixt flex items-center justify-center pt-8">
     <nav
-      class="bg-black w-2/5 z-9  text-[#EDD6B6] py-3 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl shadow-lg">
+      class="bg-black w-1/2 z-9  text-[#EDD6B6] py-3 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl shadow-lg">
       <div class="container mx-auto flex items-center justify-between px-6">
         <!-- Logo -->
-        <a href="#" class="text-2xl font-bold text-[#EDD6B6]">arik.</a>
+        <a href="/index.html" class="text-2xl  text-[#EDD6B6]">arik.</a>
 
         <!-- Navigation Links -->
         <ul class="flex space-x-10 text-sm font-medium">
-          <li><a href="#" class="hover:text-gray-400 hover:underline">Services</a></li>
-          <li><a href="#" class="hover:text-gray-400 hover:underline">Work</a></li>
-          <li><a href="#" class="hover:text-gray-400 hover:underline">About</a></li>
-          <li><a href="#" class="hover:text-gray-400 hover:underline">Blog</a></li>
+          <li><a href="/service.html" class="hover:text-gray-400 hover:underline">Services</a></li>
+          <li><a href="/work.html" class="hover:text-gray-400 hover:underline">Work</a></li>
+          <li><a href="/about.html" class="hover:text-gray-400 hover:underline">About</a></li>
+          <li><a href="/blog.html" class="hover:text-gray-400 hover:underline">Blog</a></li>
         </ul>
 
         <!-- Call-to-Action Button -->
-        <a href="#" class="bg-[#EDD6B6] text-black px-4 py-2  hover:bg-[#FBD9B9]">
+        <a href="#" class="bg-[#EDD6B6] text-black text-[12px] font-semibold rounded-sm px-4 py-2  hover:bg-[#FBD9B9]">
           LET'S TALK
         </a>
       </div>
     </nav>
   </div>
+
+
+
   <!-- Hero Section -->
   <section class="text-center py-6">
     <div class="relative">
@@ -172,9 +177,9 @@
       <span>Selected Work</span>
     </div>
     <div class="grid grid-cols-1  md:grid-cols-2  gap-8">
-      <div class="relative  h-[75lvh]  border border-zinc-900 group">
+      <div class="relative  hover:shadow-xl hover:shadow-white group rounded-2xl ">
         <!-- Image -->
-        <img class="h-full w-full" src="img/a.jpg" alt="Image not found">
+        <img class="h-full w-full rounded-2xl" src="img/a.jpg" alt="Image not found">
 
         <!-- SVG Icon -->
         <div class="absolute top-[44%] left-[48%] z-10 hidden group-hover:block">
@@ -187,18 +192,18 @@
           </svg>
         </div>
         <!-- Caption -->
-        <div class="absolute w-full flex bottom-10 justify-center px-6">
+        <div class="absolute w-full flex bottom-10 justify-center px-6 ">
           <div
-            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
+            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl rounded-md">
             <span class="text-2xl font-thin">Space</span>
             <span class="text-lg font-thin">WEB DESIGN</span>
           </div>
         </div>
       </div>
 
-      <div class="relative border border-zinc-900 group">
+      <div class="relative hover:shadow-xl hover:shadow-white rounded-2xl group">
         <!-- Image -->
-        <img class="h-full w-full" src="img/b.jpg" alt="Image not found">
+        <img class="h-full w-full rounded-2xl" src="img/b.jpg" alt="Image not found">
 
         <!-- SVG Icon -->
         <div class="absolute top-[44%] left-[48%] z-10 hidden group-hover:block">
@@ -213,16 +218,16 @@
         <!-- Caption -->
         <div class="absolute w-full flex bottom-10 justify-center px-6">
           <div
-            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
+            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl rounded-md">
             <span class="text-2xl font-thin">Nova</span>
             <span class="text-lg font-thin">WEB DESIGN</span>
           </div>
         </div>
       </div>
 
-      <div class="relative border border-zinc-900 group">
+      <div class="relative hover:shadow-xl hover:shadow-white group  rounded-2xl">
         <!-- Image -->
-        <img class="h-full w-full" src="img/c.jpg" alt="Image not found">
+        <img class="h-full w-full rounded-2xl" src="img/c.jpg" alt="Image not found">
 
         <!-- SVG Icon -->
         <div class="absolute top-[44%] left-[48%] z-10 hidden group-hover:block">
@@ -237,16 +242,16 @@
         <!-- Caption -->
         <div class="absolute w-full flex bottom-10 justify-center px-6">
           <div
-            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
+            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl rounded-md">
             <span class="text-2xl font-thin">Sonic</span>
             <span class="text-lg font-thin">WEB DESIGN</span>
           </div>
         </div>
       </div>
 
-      <div class="relative border border-zinc-900 group">
+      <div class="relative hover:shadow-xl hover:shadow-white group rounded-2xl ">
         <!-- Image -->
-        <img class="h-full w-full" src="img/h.jpg" alt="Image not found">
+        <img class="h-full w-full  rounded-2xl" src="img/h.jpg" alt="Image not found">
 
         <!-- SVG Icon -->
         <div class="absolute top-[44%] left-[48%] z-10 hidden group-hover:block">
@@ -261,7 +266,7 @@
         <!-- Caption -->
         <div class="absolute w-full flex bottom-10 justify-center px-6">
           <div
-            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
+            class="w-full flex justify-between bg-gray-800 py-2 px-8 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl rounded-md">
             <span class="text-2xl font-thin">Solar</span>
             <span class="text-lg font-thin">WEB DESIGN</span>
           </div>
@@ -270,394 +275,333 @@
     </div>
   </section>
 
-  <!-- the process section  -->
-  <section class="container  mx-auto font-thin my-24">
-    <div class=" inset-0 flex flex-col items-center justify-center">
-      <p class=" max-w-2xl mx-auto py-4 font-[10] text-sm md:text-md lg;text-lg text-center">
-        THE PROCESS
-      </p>
-      <span class="text-6xl md:text-7xl lg:text-8xl font-[10] mb-4 text-center">
-        Your Website <br> <span class="italic"> in 5 steps</span>
-      </span>
-
-
-      <p class=" max-w-2xl mx-auto py-4 font-[10] text-lg md:text-xl lg;text-2xl mb-8 text-center">
-        Our process ensures that we create a website <br> tailored to your business needs.
-      </p>
-
-      <div class="flex gap-2  px-4 py-3 rounded">
-        <svg
-          class="w-10 h-10 text-[#EDD6B6] border border-[#EDD6B6] rounded-full bg-[#EDD6B6] bg-stone-800/50 backdrop-blur-xl transform rotate-0 transition-transform duration-700 delay-300 group-hover:rotate-[-45deg]"
-          aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M12 19V5m0 14-4-4m4 4 4-4" />
-        </svg>
+  <!-- the process start -->
+  <section>
+    <div class="container max-w-7xl mx-auto mt-20">
+      <div class="flex flex-col justify-items-center text-white text-center">
+        <span class="text-lg ">THE PROCESS</span>
+        <span class="text-5xl mb-4">Your Website</span>
+        <span class="text-4xl mb-4 italic"> in 5 steps</span>
+        <span class="text-xl ">Our process ensures that we create a website</span>
+        <span class="text-xl ">tailored to your business needs.</span>
       </div>
-
-
-      <!-- Timeline -->
-      <div class="relative container mx-auto py-24 ">
-
-        <!-- Timeline -->
-        <div class="relative item-center border-gray-700 ">
-
-
-
-          <div class="flex-none md:flex  justify-center  gap-16 ">
-
-            <!-- first div  -->
-            <div class="grid grid-rows-4 gap-8 ">
-
-              <div class="">
-                <div class="my-2 h-32">
-
-                </div>
-              </div>
-
-              <div class=" flex justify-center items-center">
-                <div class="my-2">
-                  <div class="bg-gray-800 p-6 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-                    <p class="font-[10]">03</p>
-                    <h3 class="text-xl font-semibold mb-4">Content & SEO</h3>
-                    <p class="text-[#EDD6B6] mb-4">
-                      Proven SEO strategies that enhance your online performance, bringing you to the forefront of
-                      organic search
-                      results.
-                    </p>
-                    <div class="group flex gap-2 ">
-                      <svg
-                        class=" w-6 h-6 text-[#EDD6B6] hidden group-hover:block rounded-full hover:bg-[#EDD6B6] hover:bg-opacity-30"
-                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                        viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M19 12H5m14 0-4 4m4-4-4-4" />
-                      </svg>
-
-                      <svg class="w-6 h-6 text-[#EDD6B6] block group-hover:hidden rounded-full" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M12 6v13m0-13 4 4m-4-4-4 4" />
-                      </svg>
-
-                      <a href="#" class="text-[#EDD6B6] hover:underline">About SEO</a>
-                    </div>
-
-
-                  </div>
-                </div>
-
-                <div class="border h-12 p-5 absolute right-[48%] z-10 bg-black  rounded-full  flex items-center">
-                  <p>2</p>
-                </div>
-              </div>
-
-              <div class="">
-                <div class="my-2 ">
-                </div>
-                <div class="border h-12 p-5 absolute right-[48%] z-10 bg-black  rounded-full  flex items-center">
-                  <p>2</p>
-                </div>
-              </div>
-
-              <div class="">
-                <div class="my-2 ">
-                  <div class="bg-gray-800 p-6 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-                    <p class="font-[10]">03</p>
-                    <h3 class="text-xl font-semibold mb-4">Content & SEO</h3>
-                    <p class="text-[#EDD6B6] mb-4">
-                      Proven SEO strategies that enhance your online performance, bringing you to the forefront of
-                      organic search
-                      results.
-                    </p>
-                    <div class="group flex gap-2 ">
-                      <svg
-                        class=" w-6 h-6 text-[#EDD6B6] hidden group-hover:block rounded-full hover:bg-[#EDD6B6] hover:bg-opacity-30"
-                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                        viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M19 12H5m14 0-4 4m4-4-4-4" />
-                      </svg>
-
-                      <svg class="w-6 h-6 text-[#EDD6B6] block group-hover:hidden rounded-full" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M12 6v13m0-13 4 4m-4-4-4 4" />
-                      </svg>
-
-                      <a href="#" class="text-[#EDD6B6] hover:underline">About SEO</a>
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-              <div class="border h-12 p-5 absolute right-[48%] z-10 bg-black  rounded-full  flex items-center">
-                <p>2</p>
-              </div>
-
+      <!-- step main start -->
+      <div class="flex justify-items-center mt-12">
+        <!-- left side start -->
+        <div class="grid grid-row-5 justify-items-center p-6 gap-2 ">
+          <!-- step-1 -->
+          <div class="shadow-lg rounded-lg max-w-xl mx-auto p-4 border h-96">
+            <div class="flex items-center justify-end mb-4 text-white">
+              <span class="bgb font-medium px-4 py-2 rounded-lg">2 HOURS</span>
             </div>
-
-            <!-- border  -->
-            <div class="border border-white">
+            <h2 class="text-lg">Do we Match?</h2>
+            <h3 class="text-2xl font-semibold ">Discovery Call</h3>
+            <div class="rounded-md mb-4 pt-4">
+              <p class="text-sm">Before we start, we determine if and how I can help you. What are your
+                requirements for your new website? Why do you need a new website? What goals do you
+                have, and what problems can we solve with a new website?</p>
             </div>
-
-            <!-- second div  -->
-            <div class="grid grid-rows-4 gap-8 ">
-              <div class="">
-                <div class="my-2 ">
-                  <div class="bg-gray-800 p-6 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-                    <p class="font-[10]">03</p>
-                    <h3 class="text-xl font-semibold mb-4">Content & SEO</h3>
-                    <p class="text-[#EDD6B6] mb-4">
-                      Proven SEO strategies that enhance your online performance, bringing you to the forefront of
-                      organic search
-                      results.
-                    </p>
-                    <div class="group flex gap-2 ">
-                      <svg
-                        class=" w-6 h-6 text-[#EDD6B6] hidden group-hover:block rounded-full hover:bg-[#EDD6B6] hover:bg-opacity-30"
-                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                        viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M19 12H5m14 0-4 4m4-4-4-4" />
-                      </svg>
-
-                      <svg class="w-6 h-6 text-[#EDD6B6] block group-hover:hidden rounded-full" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M12 6v13m0-13 4 4m-4-4-4 4" />
-                      </svg>
-
-                      <a href="#" class="text-[#EDD6B6] hover:underline">About SEO</a>
-                    </div>
-
-
-                  </div>
-                </div>
-                <div class="border h-12 p-5 absolute right-[48%] z-10 bg-black  rounded-full  flex items-center">
-                  <p>2</p>
-                </div>
-              </div>
-              <div class=" ">
-                <div class="my-2 hidden">
-                  <div class="bg-gray-800 p-6 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-                    <p class="font-[10]">03</p>
-                    <h3 class="text-xl font-semibold mb-4">Content & SEO</h3>
-                    <p class="text-[#EDD6B6] mb-4">
-                      Proven SEO strategies that enhance your online performance, bringing you to the forefront of
-                      organic search
-                      results.
-                    </p>
-                    <div class="group flex gap-2 ">
-                      <svg
-                        class=" w-6 h-6 text-[#EDD6B6] hidden group-hover:block rounded-full hover:bg-[#EDD6B6] hover:bg-opacity-30"
-                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                        viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M19 12H5m14 0-4 4m4-4-4-4" />
-                      </svg>
-
-                      <svg class="w-6 h-6 text-[#EDD6B6] block group-hover:hidden rounded-full" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M12 6v13m0-13 4 4m-4-4-4 4" />
-                      </svg>
-
-                      <a href="#" class="text-[#EDD6B6] hover:underline">About SEO</a>
-                    </div>
-
-
-                  </div>
-                </div>
-                <div class="border h-12 p-5 absolute right-[48%] z-10 bg-black  rounded-full  flex items-center">
-                  <p>2</p>
-                </div>
-              </div>
-              <div class="">
-                <div class="my-2 ">
-                  <div class="bg-gray-800 p-6 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-                    <p class="font-[10]">03</p>
-                    <h3 class="text-xl font-semibold mb-4">Content & SEO</h3>
-                    <p class="text-[#EDD6B6] mb-4">
-                      Proven SEO strategies that enhance your online performance, bringing you to the forefront of
-                      organic search
-                      results.
-                    </p>
-                    <div class="group flex gap-2 ">
-                      <svg
-                        class=" w-6 h-6 text-[#EDD6B6] hidden group-hover:block rounded-full hover:bg-[#EDD6B6] hover:bg-opacity-30"
-                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                        viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M19 12H5m14 0-4 4m4-4-4-4" />
-                      </svg>
-
-                      <svg class="w-6 h-6 text-[#EDD6B6] block group-hover:hidden rounded-full" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M12 6v13m0-13 4 4m-4-4-4 4" />
-                      </svg>
-
-                      <a href="#" class="text-[#EDD6B6] hover:underline">About SEO</a>
-                    </div>
-
-
-                  </div>
-                </div>
-                <div class="border h-12 p-5 absolute right-[48%] z-10 bg-black  rounded-full  flex items-center">
-                  <p>2</p>
-                </div>
-              </div>
-              <div class="">
-                <div class="my-2 ">
-
-                </div>
-              </div>
-              <div class="border h-12 p-5 absolute right-[48%] z-10 bg-black  rounded-full  flex items-center">
-                <p>2</p>
-              </div>
-            </div>
-
+            <ul class="list-disc list-inside">
+              <li>We get to know each other better</li>
+              <li>Determine how I can best assist you</li>
+              <li>Understand the goals you have for your website</li>
+            </ul>
           </div>
-
-
-
+          <!-- empty div -->
+          <div class="h-96">
+            <p class=""></p>
+          </div>
+          <!-- step 3 -->
+          <div class="shadow-lg rounded-lg max-w-xl mx-auto p-4 border h-96">
+            <div class="flex items-center justify-end mb-4 text-white">
+              <span class="bgb font-medium px-4 py-2 rounded-lg">2 WEEKS</span>
+            </div>
+            <h2 class="text-lg">Some Magic</h2>
+            <h3 class="text-2xl font-semibold ">Web Design</h3>
+            <div class="pt-4 rounded-md mb-4">
+              <p class="text-sm">Now comes the magic. Based on the previously developed concept, I create
+                a high-end screen design perfectly tailored to your brand. A web design that sets you
+                apart from your competition, fits your target audience ideally, and provides an
+                excellent user experience.</p>
+            </div>
+            <ul class="list-disc list-inside">
+              <li>High-end web design tailored to your brand</li>
+              <li>Interactive prototype of the design</li>
+            </ul>
+          </div>
+          <!-- empty div -->
+          <div class="h-96">
+            <p class=""></p>
+          </div>
+          <!-- step 5 -->
+          <div class="shadow-lg rounded-lg max-w-xl mx-auto p-4 border h-96">
+            <div class="flex items-center justify-end mb-4 text-white">
+              <span class="bgb font-medium px-4 py-2 rounded-lg">1 DAY</span>
+            </div>
+            <h2 class="text-lg">Ready to go</h2>
+            <h3 class="text-2xl font-semibold ">Website Onboarding</h3>
+            <div class="pt-4 rounded-md mb-4">
+              <p class="text-sm">In a personal Framer workshop, I will show you how to make changes to
+                your new website quickly and easily. Additionally, you will receive personalized Framer
+                video tutorials that you can access at any time. Edit your Framer website without a
+                complicated backend or the need for an additional programmer. It's as simple as that</p>
+            </div>
+            <ul class="list-disc list-inside">
+              <li>Personal workshop</li>
+              <li> Personalized video tutorials</li>
+              <li>Edit text and images directly on your website</li>
+            </ul>
+          </div>
         </div>
-
+        <!-- this is middle step numver-->
+        <div class="grid grid-row-5 justify-items-center items-center">
+          <div class="mt-8">
+            <p class="px-4 py-2 bg-white text-black text-center rounded-full">1</p>
+          </div>
+          <div class="mt-8">
+            <p class="px-4 py-2 bg-white text-black text-center rounded-full">2</p>
+          </div>
+          <div class="mt-8">
+            <p class="px-4 py-2 bg-white text-black text-center rounded-full">3</p>
+          </div>
+          <div class="mt-8">
+            <p class="px-4 py-2 bg-white text-black text-center rounded-full">4</p>
+          </div>
+          <div class="mt-8">
+            <p class="px-4 py-2 bg-white text-black text-center rounded-full">5</p>
+          </div>
+        </div>
+        <!-- Right side start -->
+        <div class="grid grid-row-5 justify-items-center p-6 gap-2 ">
+          <!-- empty div -->
+          <div class="h-96">
+            <p class=""></p>
+          </div>
+          <!-- step-2 -->
+          <div class="shadow-lg rounded-lg max-w-xl mx-auto p-4 border h-96">
+            <div class="flex items-center justify-end mb-4 text-white">
+              <span class="bgb font-medium px-4 py-2 rounded-lg">2 WEEKS</span>
+            </div>
+            <h2 class="text-lg">We need a plan</h2>
+            <h2 class="text-2xl font-bold mb-4">Concept & Strategy</h2>
+            <p class="mb-4">
+              Together, we develop a strategy that successfully combines your goals with the needs of your
+              target audience. Based on this concept, I create the first wireframes and an interactive
+              prototype. This provides us with a very good impression of the website and the user
+              interface.
+            </p>
+            <ul class="list-disc list-inside ">
+              <li>UX Design</li>
+              <li>Wireframes</li>
+              <li>Interactive Prototype</li>
+            </ul>
+          </div>
+          <!-- empty div -->
+          <div class="h-96">
+            <p class=""></p>
+          </div>
+          <!-- step 4 -->
+          <div class="shadow-lg rounded-lg max-w-xl mx-auto p-4 border h-96">
+            <div class="flex items-center justify-end mb-4 text-white">
+              <span class="bgb font-medium px-4 py-2 rounded-lg">2 WEEKS</span>
+            </div>
+            <h2 class="text-lg">More Magic</h2>
+            <h3 class="text-2xl font-semibold ">Web Development</h3>
+            <div class="pt-4 rounded-md mb-4">
+              <p class="text-sm">In this step, we breathe life into your new high-end design. You will
+                receive a custom-built website using a modular web design system and CMS integration.
+                Animations will add the necessary flair to your site and set you apart from the boring
+                competition./p>
+            </div>
+            <ul class="list-disc list-inside">
+              <li>Custom framer website.</li>
+              <li>Modular web design systems</li>
+              <li>CMS integration</li>
+            </ul>
+          </div>
+          <!-- empty div -->
+          <div class="h-96">
+            <p class=""></p>
+          </div>
+        </div>
       </div>
-
     </div>
   </section>
+  <!-- the process end -->
 
-
-  <!-- the process section  -->
-  <section class="container mx-0 w-full  md:mx-auto font-thin mb-32">
-    <div class=" inset-0 flex flex-col items-center justify-center">
-      <span class="text-6xl md:text-7xl lg:text-8xl font-[10] mb-4 text-center">
-        What my <br> <span class="italic">clients say</span>
-      </span>
-      <p class=" max-w-2xl mx-auto py-4 font-[10] text-lg md:text-xl lg;text-2xl mb-8 text-center">
-        See what my clients have to say about working with me <br> and the results I helped them achieve.
-      </p>
+  <!-- Testimonial starts  -->
+  <div class="space-y-5  w-10/12 mx-auto">
+    <div class="text-center my-8">
+      <h1 class="text-8xl font-font-raleway text-[#DAC5A7]">What My<br>
+        Clients Say</h1>
+      <h3 class="text-xl font-light text-[#DAC5A7] mt-4">
+        See what my clients have to say about working with me<br>
+        and the results I helped them achieve.
+      </h3>
     </div>
-    <div class=" grid grid-cols-1 md:grid-cols-2 mx-2 md:mx-10 gap-8">
 
-      <!--card 1-->
-      <div class="bg-gray-800 p-12 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-        <i class="fa-solid fa-hippo text-3xl pb-8"></i>
-        <h3 class="text-2xl font-thin  font-semibold mb-4">Amazing Results with Arik's Premium Web Design Services.</h3>
-        <p class="text-[#EDD6B6] mb-4 text-md pb-4">
-          Arik is a top-notch web designer who created a stunning website for my business. He was attentive to my needs
-          and provided excellent customer service throughout the entire process. I highly recommend his services.
-        </p>
-        <div class="group flex gap-2 ">
-          <img class="rounded-full h-14 w-14" src="img/a1.png" alt="">
-          <p class="ml-2 font-sm">Matthew Smith <br>
-            <spen class="font-thin opacity-50"> Sonic </spen>
+    <div>
+      <div class="flex">
+        <div class="w-[550px] h-[360px] mx-10 rounded-lg border border-gray-800 shadow-md backdrop-blur-lg">
+          <svg class="w-20 h-10 pt-16 text-gray-800 dark:text-white" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5v14m8-7h-2m0 0h-2m2 0v2m0-2v-2M3 11h6m-6 4h6m11 4H4c-.55228 0-1-.4477-1-1V6c0-.55228.44772-1 1-1h16c.5523 0 1 .44772 1 1v12c0 .5523-.4477 1-1 1Z" />
+          </svg>
+          <p class="text-2xl font-semibold text-[#EDD6B6] px-8 pt-1">Amazing Results with Arik's Premium Web Design
+            Services.</p>
+          <p class="text-md text-[#EDD6B6] mt-2 px-8">
+            Agun is a top-notch web designer who created a stunning website for my business. He was attentive to my
+            needs
+            and provided excellent customer service throughout the entire process. I highly recommend his services.
           </p>
+          <div class="flex pt-8 pl-8">
+            <img class="w-14 rounded-full" decoding="async"
+              src="https://framerusercontent.com/images/pVYu13FxMlhwfyvEdfvytUjLipo.png" alt="">
+            <div>
+              <p class="text-[#DAC5A7] pt-2 pl-4">MATTHEW<br>Sonic</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="w-[550px] h-[360px] mx-10 rounded-lg border border-gray-800 shadow-md">
+          <svg class="w-20 h-10 pt-16 text-gray-800 dark:text-white" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5v14m8-7h-2m0 0h-2m2 0v2m0-2v-2M3 11h6m-6 4h6m11 4H4c-.55228 0-1-.4477-1-1V6c0-.55228.44772-1 1-1h16c.5523 0 1 .44772 1 1v12c0 .5523-.4477 1-1 1Z" />
+          </svg>
+          <p class="text-2xl font-semibold text-[#EDD6B6] px-8 pt-1">Expert Framer and SEO Services: Excellent Work,
+            Great
+            Results.</p>
+          <p class="text-md text-[#EDD6B6] mt-2 px-8">
+            Working with Arik on my website redesign was a fantastic experience. He was able to take my vision and turn
+            it
+            into a beautiful and functional website. His attention to detail and creative approach is unmatched. I
+            couldn't be happier with the end result.
+          </p>
+          <div class="flex pt-8 pl-8">
+            <img class="w-14 rounded-full" decoding="async"
+              src="https://framerusercontent.com/images/ukScHlXY6INnNtfLKEBZ9RdVDk.png" alt="">
+            <div>
+              <p class="text-[#DAC5A7] pt-2 pl-4">JHON KIM<br>Sonic</p>
+
+            </div>
+          </div>
         </div>
       </div>
-
-      <!--card 2-->
-      <div class="bg-gray-800 p-12 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-        <i class="fa-solid fa-hippo text-3xl pb-8"></i>
-        <h3 class="text-2xl font-thin  font-semibold mb-4">Expert Framer and SEO Services: Excellent Work, Great
-          Results.</h3>
-        <p class="text-[#EDD6B6] mb-4 text-md pb-4">
-          Working with Arik on my website redesign was a fantastic experience. He was able to take my vision and turn it
-          into a beautiful and functional website. His attention to detail and creative approach is unmatched. I
-          couldn't be happier with the end result.
-        </p>
-        <div class="group flex gap-2 ">
-          <img class="rounded-full h-14 w-14" src="img/a2.png" alt="">
-          <p class="ml-2 font-sm">Josh Kim <br>
-            <spen class="font-thin opacity-50"> Solar </spen>
-          </p>
-        </div>
-      </div>
-
-      <!--card 3-->
-      <div class="bg-gray-800 p-12 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-        <i class="fa-solid fa-hippo text-3xl pb-8"></i>
-        <h3 class="text-2xl font-thin  font-semibold mb-4">Professional, Collaborative Web Design Experience with Arik.
-        </h3>
-        <p class="text-[#EDD6B6] mb-4 text-md pb-4">
-          I had the pleasure of working with Arik on a website development project and was blown away by his expertise
-          and professionalism. He made the process seamless and delivered a website that exceeded our expectations. I
-          highly recommend Arik for all your web development needs.
-        </p>
-        <div class="group flex gap-2 ">
-          <img class="rounded-full h-14 w-14" src="img/a3.png" alt="">
-          <p class="ml-2 font-sm">Andrea Lee <br>
-            <spen class="font-thin opacity-50"> Stars </spen>
-          </p>
-        </div>
-      </div>
-
-      <!--card 4-->
-      <div class="bg-gray-800 p-12 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-        <i class="fa-solid fa-hippo text-3xl pb-8"></i>
-        <h3 class="text-2xl font-thin  font-semibold mb-4">Expertise in Web Design: Second to None with Arik.</h3>
-        <p class="text-[#EDD6B6] mb-4 text-md pb-4">
-          Arik is not only an exceptional web designer, but also a pleasure to work with. He took the time to understand
-          my business and its unique needs, and created a website that perfectly represents my brand. I highly recommend
-          Arik's services to anyone looking for a top-quality web designer.
-        </p>
-        <div class="group flex gap-2 ">
-          <img class="rounded-full h-14 w-14" src="img/a4.png" alt="">
-          <p class="ml-2 font-sm">Andreas Thompson <br>
-            <spen class="font-thin opacity-50"> Design Inc. </spen>
-          </p>
-        </div>
-      </div>
-
-      <!--card 5-->
-      <div class="bg-gray-800 p-12 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-        <i class="fa-solid fa-hippo text-3xl pb-8"></i>
-        <h3 class="text-2xl font-thin  font-semibold mb-4">Web Design and Content Solutions: Stand Out from the Crowd.
-        </h3>
-        <p class="text-[#EDD6B6] mb-4 text-md pb-4">
-          Arik's SEO services have helped my business improve its online presence and increase traffic to our website.
-          He is knowledgeable, professional, and provides excellent results. I highly recommend him for all your SEO
-          needs.
-        </p>
-        <div class="group flex gap-2 ">
-          <img class="rounded-full h-14 w-14" src="img/a5.png" alt="">
-          <p class="ml-2 font-sm">Catharine Davis<br>
-            <spen class="font-thin opacity-50"> Supersonic </spen>
-          </p>
-        </div>
-      </div>
-
-
-      <!--card 6-->
-      <div class="bg-gray-800 p-12 border border-[#34312C] bg-stone-800/50 backdrop-blur-xl">
-        <i class="fa-solid fa-hippo text-3xl pb-8"></i>
-        <h3 class="text-2xl font-thin  font-semibold mb-4">High-Quality Web Design: Exceptional Attention to Detail with
-          Arik.</h3>
-        <p class="text-[#EDD6B6] mb-4 text-md pb-4">
-          Arik's development services are top-notch. He is able to take complex ideas and turn them into functional,
-          user-friendly websites. His attention to detail and commitment to customer satisfaction are unmatched. I
-          highly recommend Arik for all your web development needs.
-        </p>
-        <div class="group flex gap-2 ">
-          <img class="rounded-full h-14 w-14" src="img/a6.png" alt="">
-          <p class="ml-2 font-sm">Liam Chen <br>
-            <spen class="font-thin opacity-50"> Design Solutions </spen>
-          </p>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-  <!-- About section  -->
-   <section class="pb-32">
+
+    <div>
+      <div class="flex">
+        <div class="w-[550px] h-[360px] mx-10 rounded-lg border border-gray-800 shadow-md">
+          <svg class="w-20 h-10 pt-16 text-gray-800 dark:text-white" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5v14m8-7h-2m0 0h-2m2 0v2m0-2v-2M3 11h6m-6 4h6m11 4H4c-.55228 0-1-.4477-1-1V6c0-.55228.44772-1 1-1h16c.5523 0 1 .44772 1 1v12c0 .5523-.4477 1-1 1Z" />
+          </svg>
+          <p class="text-2xl font-semibold text-[#EDD6B6] px-8 pt-1">Professional, Collaborative Web Design Experience
+            with Agun.</p>
+          <p class="text-md text-[#EDD6B6] mt-2 px-8">
+            I had the pleasure of working with Arik on a website development project and was blown away by his expertise
+            and professionalism. He made the process seamless and delivered a website that exceeded our expectations. I
+            highly recommend Arik for all your web development needs.
+          </p>
+          <div class="flex pt-8 pl-8">
+            <img class="w-14 rounded-full" decoding="async"
+              src="https://framerusercontent.com/images/SnWxxAAjflHRkgTOyIn0B79TXA.png" alt="">
+            <div>
+              <p class="text-xs text-[#DAC5A7] pt-2 pl-4">Andrea Lee<br>Sonic</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[550px] h-[360px] mx-10 rounded-lg border border-gray-800 shadow-md">
+          <svg class="w-20 h-10 pt-16 text-gray-800 dark:text-white" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5v14m8-7h-2m0 0h-2m2 0v2m0-2v-2M3 11h6m-6 4h6m11 4H4c-.55228 0-1-.4477-1-1V6c0-.55228.44772-1 1-1h16c.5523 0 1 .44772 1 1v12c0 .5523-.4477 1-1 1Z" />
+          </svg>
+          <p class="text-2xl font-semibold text-[#EDD6B6] px-8 pt-1">Expertise in Web Design: Second to None with Agun.
+          </p>
+          <p class="text-md text-[#EDD6B6] mt-2 px-8">
+            Agun is not only an exceptional web designer, but also a pleasure to work with. He took the time to
+            understand
+            my business and its unique needs, and created a website that perfectly represents my brand. I highly
+            recommend
+            Arik's services to anyone looking for a top-quality web designer.
+          </p>
+          <div class="flex pt-8 pl-8">
+            <img class="w-14 rounded-full" decoding="async"
+              src="https://framerusercontent.com/images/zNKO2RYDIlDQdbemjjkeR8spts.png" alt="">
+            <div>
+              <p class="text-xs text-[#DAC5A7] pt-2 pl-4">Andreas Thompson<br>Design Inc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="flex">
+        <div class="w-[550px] h-[360px] mx-10 rounded-lg border border-gray-800 shadow-md">
+          <svg class="w-20 h-10 pt-16 text-gray-800 dark:text-white" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5v14m8-7h-2m0 0h-2m2 0v2m0-2v-2M3 11h6m-6 4h6m11 4H4c-.55228 0-1-.4477-1-1V6c0-.55228.44772-1 1-1h16c.5523 0 1 .44772 1 1v12c0 .5523-.4477 1-1 1Z" />
+          </svg>
+          <p class="text-2xl font-semibold text-[#EDD6B6] px-8 pt-1">Web Design and Content Solutions: Stand Out from
+            the
+            Crowd.</p>
+          <p class="text-md text-[#EDD6B6] mt-2 px-8">
+            Agun's SEO services have helped my business improve its online presence and increase traffic to our website.
+            He is knowledgeable, professional, and provides excellent results. I highly recommend him for all your SEO
+            needs.
+          </p>
+          <div class="flex pt-8 pl-8">
+            <img class="w-14 rounded-full" decoding="async"
+              src="https://framerusercontent.com/images/zNKZ69PpLDt3Xz9CbISW4JZIdJg.png" alt="h">
+            <div>
+              <p class="text-xs text-[#DAC5A7] pt-2 pl-4">Catharine Davis<br>Supersonic</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[550px] h-[360px] mx-10 rounded-lg border border-gray-800 shadow-md">
+          <svg class="w-20 h-10 pt-16 text-gray-800 dark:text-white" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5v14m8-7h-2m0 0h-2m2 0v2m0-2v-2M3 11h6m-6 4h6m11 4H4c-.55228 0-1-.4477-1-1V6c0-.55228.44772-1 1-1h16c.5523 0 1 .44772 1 1v12c0 .5523-.4477 1-1 1Z" />
+          </svg>
+          <p class="text-2xl font-semibold text-[#EDD6B6] px-8 pt-1">High-Quality Web Design: Exceptional Attention to
+            Detail with Agun.</p>
+          <p class="text-md text-[#EDD6B6] mt-2 px-8">
+            Agun's development services are top-notch. He is able to take complex ideas and turn them into functional,
+            user-friendly websites. His attention to detail and commitment to customer satisfaction are unmatched. I
+            highly recommend Arik for all your web development needs.
+          </p>
+          <div class="flex pt-8 pl-8">
+            <img class="w-14 rounded-full" decoding="async"
+              src="https://framerusercontent.com/images/BMBjxclHTXM8r8oH9PDeDaz7ho.png" alt="">
+            <div>
+              <p class="text-xs text-[#DAC5A7] pt-2 pl-4">Liam Chen<br>Design Solutions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial end  -->
+
+  <!-- About starts  -->
+  <div class="w-11/12 mx-auto">
+    <!-- About section  -->
+    <section class="pb-32">
       <div class="flex justify-center  italic font-thin opacity-60 overflow-hidden">
-        <span class="text-4xl md:text-6xl lg:text-9xl my-[10%] text-center">Arik Andersson</span>
-        <img src="https://framerusercontent.com/images/sitQqXXWe18lNYFUMPSXSHcM3A.png?scale-down-to=1024" alt="Hero Image"
-          class=" w-[30%]">
-        <span class="text-4xl md:text-6xl lg:text-9xl my-[10%] text-center">Arik Andersson</span>
+        <span class="text-4xl md:text-6xl lg:text-7xl my-[10%] text-center">Arik Andersson</span>
+        <img src="https://framerusercontent.com/images/sitQqXXWe18lNYFUMPSXSHcM3A.png?scale-down-to=1024"
+          alt="Hero Image" class=" w-[30%]">
+        <span class="text-4xl md:text-6xl lg:text-7xl my-[10%] text-center">Arik Andersson</span>
       </div>
       <div
         class="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center lg:gap-24 justify-between  lg:mt-12  font-extralight overflow-hidden">
@@ -665,8 +609,10 @@
             impression!</span></p>
         <div>
           <p class="text-xl text-center lg:text-left px-10 mr-8">Hi, I'm Arik Andersson - a freelancer specializing in
-            premium web design, development, and SEO services. I'm passionate about creating unique and effective solutions
-            for my clients, and I bring a personal touch to every project. Let's work together to bring your vision to life!
+            premium web design, development, and SEO services. I'm passionate about creating unique and effective
+            solutions
+            for my clients, and I bring a personal touch to every project. Let's work together to bring your vision to
+            life!
           </p>
           <div class="flex gap-3 ml-10 mt-6 lg:mt-10 justify-center lg:justify-start">
             <svg
@@ -678,20 +624,23 @@
             </svg>
             <svg
               class="w-10 h-10 text-white-800 border border-[#EDD6B6] border-opacity-25 rounded-full bg-[#EDD6B6] bg-stone-800/50 backdrop-blur-xl p-2"
-              aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+              viewBox="0 0 24 24">
               <path fill="currentColor" fill-rule="evenodd"
                 d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
                 clip-rule="evenodd" />
             </svg>
             <svg
               class="w-10 h-10 text-white-800 border border-[#EDD6B6] border-opacity-25 rounded-full bg-[#EDD6B6] bg-stone-800/50 backdrop-blur-xl p-2"
-              aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+              viewBox="0 0 24 24">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M8 5h4.5a3.5 3.5 0 1 1 0 7H8m0-7v7m0-7H6m2 7h6.5a3.5 3.5 0 1 1 0 7H8m0-7v7m0 0H6" />
             </svg>
             <svg
               class="w-10 h-10 text-white-800 border border-[#EDD6B6] border-opacity-25 rounded-full bg-[#EDD6B6] bg-stone-800/50 backdrop-blur-xl p-2"
-              aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+              viewBox="0 0 24 24">
               <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none" />
               <path stroke="currentColor" stroke-width="2"
                 d="M12 2a10 10 0 0 1 0 20 10 10 0 0 1 0-20zM2 12h20M12 2v20M4.5 4.5c5 5 15 5 15 15M4.5 19.5c5-5 15-5 15-15"
@@ -700,74 +649,130 @@
           </div>
         </div>
       </div>
-  </section>
+    </section>
+  </div>
+  <!-- About ends  -->
 
-  <!-- Carusal -->
-  <section class="h-10 w-full whitespace-nowrap border border-[#34312C] bg-stone-800/50 bg-fixed backdrop-blur-xl shadow-lg overflow-hidden flex items-center py-2 font-thin text-md ">
-    <p class="text-[#EDD6B6] animate-marquee">
-      Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk +++ Let's Talk Let's Talk +++ Let's Talk
-    </p>
-  </section>
-  
-<!--Fotter section-->
-  <section class=" font-thin w-full  border-[#34312C] bg-stone-800/40 bg-fixed backdrop-blur-xl shadow-lg">
-    <div class=" inset-0 flex flex-col items-center justify-center pt-32">
-      <p class=" max-w-2xl mx-auto py-4 font-thin text-sm md:text-md lg:text-lg text-center">
-        Project in mind?
-      </p>
-      <span class="text-6xl md:text-7xl lg:text-9xl font-[10] mb-4 text-center">
-        Let’s make your <br> <span class="italic"> Website shine</span>
-      </span>
-
-
-      <p class=" max-w-2xl mx-auto py-4 font-[10] text-lg md:text-xl lg:text-2xl mb-8 text-center">
-        Premium web design, development, and SEO  <br> services to help your business stand out.
-      </p>
-
-      <div class="flex gap-2  px-4 py-3 rounded">
+  <!-- Carosul starts  -->
+  <div class=" bg-white/10 backdrop-blur-md py-2">
+    <!-- slide scroll start -->
+    <section>
+      <div class="overflow-hidden w-full ">
+        <div class="flex whitespace-nowrap">
+          <marquee>
+            <span class="text-xl  font-semibold mx-4 px-6 py-3">+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK+++.....LET'S TALK......+++.....LET'S
+              TALK.....+++.....LET'S TALK.....+++.....LET'S TALK</span>
+          </marquee>
+        </div>
       </div>
-      <a href="#" class="flex gap-2 bg-[#EDD6B6] text-black px-4 py-2  hover:bg-[#FBD9B9]">
-        <p>GET IN TOUCH</p>
-        
-        <svg class="w-6 h-6 text-stone-800 opacity-70 rotate-[-45deg]"
-            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none"
-            viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M19 12H5m14 0-4 4m4-4-4-4" />
-          </svg>
-      </a>
-    </div>
 
 
-    <div class=" inset-0 grid grid-rows-4 items-center justify-center pt-32">
+    </section>
+    <!-- slide scroll end -->
+  </div>
+  <!-- Carosul ends  -->
 
+
+  <!-- contact us section start -->
+  <section>
+    <div class="container max-w-7xl mx-auto mt-20 ">
+      <div class="">
+        <h1 class="text-xl  font-extralight text-center mb-6">Project in mind?</h1>
+        <div class="flex flex-col text-center ">
+          <span class="text-7xl  font-extralight italic">Let’s make your</span><br>
+          <span class="text-7xl font-extralight  italic mb-6">Website shine</span>
+          <span class="text-xl">Premium web design, development, and SEO</span>
+          <span class="text-xl">services to help your business stand out.</span>
+        </div>
+        <div class="flex justify-center">
+          <a class="border bg-[#edd6b6] rounded-lg px-4 py-2 mt-6 text-black ">
+            <span class="">GET IN TOUCH</span>
+            <i class="fa-solid fa-arrow-right-long m-2"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
+  <!-- contact us section end -->
 
-  
-  
+  <!-- footer section start -->
+  <footer class="text-[#edd6b6] py-10  mt-8">
+    <div class="container max-w-7xl mx-auto px-4">
+      <div class="flex flex-wrap justify-between items-center">
+        <!-- Logo -->
+        <div class="mb-4 md:mb-0">
+          <h1 class="text-2xl font-bold">SHARIFUL</h1>
+        </div>
 
-  <!-- Footer -->
-  <footer class="text-center py-6 text-gray-400">
-    &copy; 2024 shariful. All rights reserved.
+        <!-- Social Media Icons -->
+        <div class="flex space-x-6 mb-4 md:mb-0">
+          <a href="#" aria-label="Instagram" class="hover:text-gray-400">
+            <i class="fab fa-instagram text-3xl"></i>
+          </a>
+          <a href="#" aria-label="Twitter" class="hover:text-gray-400">
+            <i class="fab fa-twitter text-3xl"></i>
+          </a>
+          <a href="#" aria-label="Dribbble" class="hover:text-gray-400">
+            <i class="fab fa-dribbble text-3xl"></i>
+          </a>
+          <a href="#" aria-label="Behance" class="hover:text-gray-400">
+            <i class="fab fa-behance text-3xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Pages</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-gray-400">Home</a></li>
+            <li><a href="#" class="hover:text-gray-400">Services</a></li>
+            <li><a href="#" class="hover:text-gray-400">About</a></li>
+            <li><a href="#" class="hover:text-gray-400">Pricing</a></li>
+            <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">More Templates</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-gray-400">CMS</a></li>
+            <li><a href="#" class="hover:text-gray-400">Work</a></li>
+            <li><a href="#" class="hover:text-gray-400">Work Single</a></li>
+            <li><a href="#" class="hover:text-gray-400">Blog</a></li>
+            <li><a href="#" class="hover:text-gray-400">Blog Single</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Utility Pages</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-gray-400">Styleguide</a></li>
+            <li><a href="#" class="hover:text-gray-400">404 Error Page</a></li>
+            <li><a href="#" class="hover:text-gray-400">Licensing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-8 text-sm text-white">
+      © 2024 SHARIFUL. All rights reserved.
+    </div>
   </footer>
+  <!-- footer section end -->
 
-  <style>
-    @layer utilities {
-      @keyframes marquee {
-        0% {
-          transform: translateX(-20%);
-        }
-        100% {
-          transform: translateX(20%);
-        }
-      }
-  
-      .animate-marquee {
-        animation: marquee 20s linear infinite;
-      }
-    }
-  </style>
+
+
 </body>
 
 </html>
